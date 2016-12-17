@@ -1,0 +1,72 @@
+header
+{
+    background-color: #db4437;
+    height: 358px;
+}
+header h1
+{
+    margin-left: 120px;
+    width: 300px;
+    font-size: 25px;
+    font-family: "Arial Narrow";
+    color: white;
+}
+.container{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    padding: 0;
+    background-color: white;
+    box-shadow: #0f0f0f 0 1px 20px 3px;
+}
+.panel-group{
+    padding-bottom: 20px;
+}
+.panel-group, .container{
+    margin: 0 auto;
+    width: 900px;
+}
+.panel-title a
+{
+    text-decoration: none;
+}
+.panel-body{
+    background-color: #616161;
+    color: white;
+}
+.panel-title a.collapsed:before{
+    font-family: "FontAwesome";
+    content: "\f067";
+    color: red;
+}
+.panel-title a:before{
+    margin-right: 20px;
+    font-family: "FontAwesome";
+    content: "\f068";
+    color: #555;
+}
+#form-quest
+{
+    margin: 0 auto;
+    width: 400px;
+}
+#form-quest input[type="email"]
+{
+    padding: 5px;
+    width: 215px;
+    border: 2px solid #db4437;
+}
+#form-quest input[type="email"]:focus{
+    outline: 0;
+}
+#form-quest textarea
+{
+    width: 300px;
+    height: 60px;
+    border: 2px solid #db4437;
+    resize: none;
+}
+#form-quest button
+{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,155 @@
+p{
+    word-wrap: break-word;
+}
+.navbar
+{
+    background-color: #f06c6c;
+}
+.navbar-brand
+{
+    color: white;
+    font-size: 35px;
+    font-family: "Buxton Sketch";
+}
+.navbar-header
+{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.log-in
+{
+    float: right;
+    margin-top: 15px;
+}
+.left
+{
+    margin-top: 100px;
+    float: left;
+}
+.right
+{
+    max-width: 75%;
+    margin: 0;
+    float: left;
+    margin-top: 100px;
+    width: 100%;
+}
+body
+{
+    background-color: rgb(238, 238, 238);
+}
+.list-group-item
+{
+    background-color: transparent;
+    border: none;
+}
+.list-group
+{
+    font-size: 20px;
+}
+.list-group-item:hover
+{
+    background-color: #e7e7e7;
+}
+.list-group a:focus
+{
+    color: red;
+}
+.list-group a:nth-child(3):focus,
+.list-group a:nth-child(4):focus
+{
+    color: #555;
+}
+.active
+{
+    color: red;
+}
+.navbar-brand > .fa-align-justify
+{
+
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.navbar-brand > .fa-align-justify:hover{
+
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ;
+}
+.grid-el{
+    max-width: 300px;
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+
+.panel-collapse > .comments, .panel-collapse > .comments > p
+{
+    margin:10px;
+}
+.comments-create
+{
+    width: 100%;
+    height: 300px;
+}
+.thumbnail > p > input{
+    width: 300px;
+    text-align: center;
+}
+
+.thumbnail .caption > h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.thumbnail .caption .small {
+    display: block;
+    margin-top: 10px;
+}
+.input-search
+{
+    border: 0;
+    width: 80%;
+}
+.social-icons 
+{
+    position: relative;
+    top: 10px;
+    left: 20%;
+    font-size: 30px; 
+    color: white;
+}
+.social-icons > a
+{
+    color: white;
+    padding: 10px;
+    margin-right: 15px;
+}
+.social-icons a:hover span
+{
+    transition: all 0.3s ease-in;
+    transform: scale(1.5);
+}
+.fa-search
+{
+    padding-left: 2px;
+}
+.fa-question:focus
+{
+    color: #555;
+}
+.panel-body .form-group label {
+    width: 30%;
+}
+
+.panel-body textarea.form-control {
+    height: 100px;
+    resize: none;
+}
+input.input-search {
+    background-color: inherit;
+}
+input.input-search:focus {
+    outline: none;
+}
